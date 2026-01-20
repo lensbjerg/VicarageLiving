@@ -1,0 +1,39 @@
+.logo {
+  height: 60px;
+  vertical-align: top;
+}
+
+a {
+  color: #f9e195;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  color: #3f4a3f;
+  color: #283329;
+}
+
+a:hover {
+  color: #f9e195;
+  text-decoration: none;
+}
+
+.button-lang {
+  background-color: #749177;
+  border: 0;
+  color: #283329;
+}
+
+.button-lang:active {
+  background-color:  #749177;
+}
+
+.button-navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+.button-navbar-toggler:focus{
+  box-shadow: none;
+}

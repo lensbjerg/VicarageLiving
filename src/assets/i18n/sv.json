@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "title": "Vicarage Living",
+    "home": "Hem",
+    "about": "Om oss",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Välkommen till Vicarage Living",
+    "subtitle": "Vi är en dansk familj som bor i Sverige — vi skapar ett hem i en gammal prästgård, lär oss svenska traditioner och omfamnar vardagen."
+  },
+  "about": {
+    "title": "Om oss",
+    "description": "Vi är en familj på fyra med två hundar som har valt att ta en annan väg i livet. Från Birkerød i Danmark flyttade vi till Vireda i Småland — ett beslut som växte fram ur COVID-19-pandemin och gav oss modet att stanna upp och reflektera över vad vi verkligen ville ha av vardagen. Vi har flyttat in i den gamla prästgården i Vireda, ett hus fullt av historia, själ och plats för både drömmar och verklighet. Här, omgivna av skog, tystnad och natur, delar vi livet, vardagsrutiner och allt som hör därtill: renoveringar, vardagssysslor, traditioner och ett långsammare liv med mer närvaro."
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "button": "Skicka"
+  },
+  "footer": {
+    "rights": "Alla rättigheter förbehållna."
+  }
+}
