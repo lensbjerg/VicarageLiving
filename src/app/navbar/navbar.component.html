@@ -30,42 +30,40 @@
             >{{ t("navbar.contact") }}</a
           >
         </li>
-
-        <li class="nav-item">
-          <div ngbDropdown class="d-inline-block">
-            <button
-              type="button"
-              class="btn btn-outline-primary button-lang"
-              id="dropdownBasic1"
-              ngbDropdownToggle
-            >
-              <span
-                class="{{
-                  currentLanguage() === 'en'
-                    ? 'fi fi-gb'
-                    : currentLanguage() === 'sv'
-                      ? 'fi fi-se'
-                      : 'fi fi-dk'
-                }}"
-              ></span>
-            </button>
-            <div ngbDropdownMenu>
-              <button ngbDropdownItem (click)="switchLanguage('sv')">
-                <span class="fi fi-se"> </span
-                ><span class="select-item-label">Svenska</span>
-              </button>
-              <button ngbDropdownItem (click)="switchLanguage('en')">
-                <span class="fi fi-gb"> </span
-                ><span class="select-item-label">English</span>
-              </button>
-              <button ngbDropdownItem (click)="switchLanguage('da')">
-                <span class="fi fi-dk"> </span
-                ><span class="select-item-label">Dansk</span>
-              </button>
-            </div>
-          </div>
-        </li>
       </ul>
+
+      <div ngbDropdown class="d-inline-block" display="dynamic">
+        <button
+          type="button"
+          class="btn btn-outline-primary button-lang"
+          id="dropdownMenu"
+          ngbDropdownToggle
+        >
+          <span
+            class="{{
+              currentLanguage() === 'en'
+                ? 'fi fi-gb'
+                : currentLanguage() === 'sv'
+                  ? 'fi fi-se'
+                  : 'fi fi-dk'
+            }}"
+          ></span>
+        </button>
+        <div ngbDropdownMenu class="dropdown-menu">
+          <button ngbDropdownItem (click)="switchLanguage('sv')">
+            <span class="fi fi-se"> </span
+            ><span class="select-item-label">Svenska</span>
+          </button>
+          <button ngbDropdownItem (click)="switchLanguage('en')">
+            <span class="fi fi-gb"> </span
+            ><span class="select-item-label">English</span>
+          </button>
+          <button ngbDropdownItem (click)="switchLanguage('da')">
+            <span class="fi fi-dk"> </span
+            ><span class="select-item-label">Dansk</span>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
