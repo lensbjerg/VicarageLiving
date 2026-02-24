@@ -1,0 +1,30 @@
+.polaroid {
+    background: white;
+    padding: 15px 15px 60px 15px;
+    /* extra bottom space */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.polaroid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.insta-embed {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 10px;
+  height: 520px; /* Desktop Height */
+  border: none;
+}
+
+/* This triggers when the screen is 600px wide or smaller (Mobile) */
+@media only screen and (max-width: 600px) {
+  .insta-embed {
+    height: 580px; /* Taller Mobile Height to prevent truncation */
+  }
+}

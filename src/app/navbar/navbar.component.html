@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg mb-3 navbar-color" *transloco="let t">
   <div class="container-fluid">
     <a class="navbar-brand" [routerLink]="'.'">
-      <img src="/assets/graphics/VL_Logo_avatar.png" class="logo" />
+      <img src="/assets/graphics/vl_logo_20.png" class="logo"  />
     </a>
 
     <button
@@ -22,18 +22,19 @@
             t("navbar.about")
           }}</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a
             class="nav-link"
             href="#contact"
             (click)="isMenuCollapsed = true"
             >{{ t("navbar.contact") }}</a
           >
-        </li>
+        </li> -->
       </ul>
 
       <div ngbDropdown class="d-inline-block" display="dynamic">
         <button
+          style="opacity: 75%"
           type="button"
           class="btn btn-outline-primary button-lang"
           id="dropdownMenu"
@@ -50,15 +51,27 @@
           ></span>
         </button>
         <div ngbDropdownMenu class="dropdown-menu">
-          <button ngbDropdownItem (click)="switchLanguage('sv')">
+          <button
+            ngbDropdownItem
+            (click)="switchLanguage('sv')"
+            style="opacity: 75%"
+          >
             <span class="fi fi-se"> </span
             ><span class="select-item-label">Svenska</span>
           </button>
-          <button ngbDropdownItem (click)="switchLanguage('en')">
+          <button
+            ngbDropdownItem
+            (click)="switchLanguage('en')"
+            style="opacity: 75%"
+          >
             <span class="fi fi-gb"> </span
             ><span class="select-item-label">English</span>
           </button>
-          <button ngbDropdownItem (click)="switchLanguage('da')">
+          <button
+            ngbDropdownItem
+            (click)="switchLanguage('da')"
+            style="opacity: 75%"
+          >
             <span class="fi fi-dk"> </span
             ><span class="select-item-label">Dansk</span>
           </button>

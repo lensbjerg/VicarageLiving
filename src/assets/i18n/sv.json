@@ -7,7 +7,7 @@
   },
   "home": {
     "title": "Välkommen till Vicarage Living",
-    "subtitle": "Vi är en dansk familj som bor i Sverige — vi skapar ett hem i en gammal prästgård, lär oss svenska traditioner och omfamnar vardagen."
+    "subtitle": "Vi är en dansk familj som bor i Sverige — vi skapar ett hem i en gammal prästgård, lär oss svenska traditioner och omfamnar vardagen. \nFölj med här på sidan och i sociala medier."
   },
   "about": {
     "title": "Om oss",
@@ -22,5 +22,15 @@
   },
   "footer": {
     "rights": "Alla rättigheter förbehållna."
-  }
+  },
+  "seasons": {
+  "winterName": "Vinter",
+  "winterDesc": "Prästgården inbäddad i snö",
+  "springName": "Vår",
+  "springDesc": "Blomstrande vårlandskap",
+  "summerName": "Sommar",
+  "summerDesc": "Solen över prästgården",
+  "autumnName": "Höst",
+  "autumnDesc": "Naturens färgpalett i full prakt"
+}
 }

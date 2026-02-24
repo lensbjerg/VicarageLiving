@@ -1,19 +1,72 @@
 <section id="home" class="jumbotron text-center" *transloco="let t">
-  <img
+  <!-- <img
     src="../../assets/graphics/winter_background.png"
-    class="img-fluid image-wide"
+    class="img-fluid image-wide rounded "
     alt="The old vicarage"
-  />
-  <h1>{{ t("home.title") }}</h1>
-  <p>{{ t("home.subtitle") }}</p>
+  /> -->
+  <h3>{{ t("home.title") }}</h3>
+  <p style="white-space: pre-wrap">{{ t("home.subtitle") }}</p>
+
+  <!-- Seasons -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 mb-4">
+        <div class="polaroid">
+          {{ t("seasons.winterName") | uppercase }}
+          <img
+            src="assets/graphics/seasons/winter/1.jpg"
+            class="img-fluid rounded w-100"
+            title="{{ t('seasons.winterName') | uppercase }}"
+          />
+          {{ t("seasons.winterDesc") }}
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 mb-4">
+        <div class="polaroid">
+          {{ t("seasons.springName") | uppercase }}
+          <img
+            src="assets/graphics/seasons/spring/1.jpg"
+            class="img-fluid rounded w-100"
+            title="{{ t('seasons.springName') | uppercase }}"
+          />
+          {{ t("seasons.springDesc") }}
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 mb-4">
+        <div class="polaroid">
+          {{ t("seasons.summerName") | uppercase }}
+          <img
+            src="assets/graphics/seasons/summer/1.jpg"
+            class="img-fluid rounded w-100"
+            title="{{ t('seasons.summerName') | uppercase }}"
+          />
+          {{ t("seasons.summerDesc") }}
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 mb-4">
+        <div class="polaroid">
+          {{ t("seasons.autumnName") | uppercase }}
+          <img
+            src="assets/graphics/seasons/autumn/1.jpg"
+            class="img-fluid rounded w-100"
+            title="{{ t('seasons.autumnName') | uppercase }}"
+          />
+          {{ t("seasons.autumnDesc") }}
+        </div>
+      </div>
+    </div>
+  </div>
 
   <iframe
-    src="https://www.instagram.com/p/DEDOBXVMRAm/embed"
-    width="400"
-    height="600"
+    class="insta-embed"
+    src="https://www.instagram.com/p/DULmnLkjatX/embed"
     frameborder="0"
     scrolling="no"
     allowtransparency="true"
+    style="border: none; overflow: hidden"
   >
   </iframe>
 </section>

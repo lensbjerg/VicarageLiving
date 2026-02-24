@@ -1,21 +1,25 @@
 .logo {
-  height: 60px;
+  height: 80px;
   vertical-align: top;
 }
 
 a {
   color: #f9e195;
+  color: #fff26e;
   text-decoration: none;
 }
 
 a:visited {
   color: white;
-  color: #3f4a3f;
+
   color: #283329;
+  color: #586358;
+  color: #3f4a3f;
 }
 
 a:hover {
   color: #f9e195;
+  color: #fff26e;
   text-decoration: none;
 }
 
@@ -26,15 +30,15 @@ a:hover {
 }
 
 .button-lang:active {
-  background-color:  #749177;
+  background-color: #749177;
 }
 
-.button-navbar-toggler{
+.button-navbar-toggler {
   border: none;
   outline: none;
 }
 
-.button-navbar-toggler:focus{
+.button-navbar-toggler:focus {
   box-shadow: none;
 }
 
@@ -42,4 +46,3 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-
