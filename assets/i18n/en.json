@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "title": "Vicarage Living",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Welcome to Vicarage Living",
+    "subtitle": "We are a Danish family living in Sweden — making a home in an old vicarage, learning Swedish traditions, and embracing everyday life.\nStay updated here and on social media."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a family of four with two dogs who have chosen to take a different path in life. From Birkerød in Denmark, we moved to Vireda in Småland — a decision that grew out of the COVID-19 pandemic and gave us the courage to pause and reflect on what we truly wanted from everyday life. We have moved into the old vicarage in Vireda, a house full of history, soul, and space for both dreams and reality. Here, surrounded by forest, silence, and nature, we share life, daily routines, and everything that comes with it: renovations, everyday tasks, traditions, and a slower life with more presence."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "button": "Send"
+  },
+  "footer": {
+    "rights": "All Rights Reserved."
+  },
+  "seasons": {
+    "winterName": "Winter",
+    "winterDesc": "The vicarage wrapped in snow",
+    "springName": "Spring",
+    "springDesc": "Early flowers in full bloom",
+    "summerName": "Summer",
+    "summerDesc": "Sunshine over the old vicarage",
+    "autumnName": "Autumn",
+    "autumnDesc": "Nature's color palette in full display"
+  }
+}
