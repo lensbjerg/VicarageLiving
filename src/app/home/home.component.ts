@@ -1,7 +1,6 @@
 import { UpperCasePipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslocoModule } from '@jsverse/transloco';
-import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
     selector: 'app-home',
@@ -11,5 +10,10 @@ import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
     styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+/*
+TODO:
+- cookie for saving chosen language -> cookie > browser lang > english
+- bottom cutoff on mobile for instagram iframe
+*/
 
 }
